@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Socotra Test Assessment
+
+This project were built for skill testing purpose
+
+## Table of Contents
+
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running Locally](#running-locally)
+  - [Building for Production](#building-for-production)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+
+## Tech Stack
+
+- ⚛️ **Next.js** - React Framework for server-rendered applications
+- 🟦 **TypeScript** - Type safety and modern JavaScript features
+- 🖌 **Tailwind CSS** - Utility-first CSS framework
+- 📑 **Formik** - Form library for building forms in React
+- ✅ **Yup** - JavaScript schema builder for validation
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) (version 6 or higher) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/eatrejosm/socotra-test-assessment.git
+cd socotra-test-assessment
+npm install
+# or
+yarn install
+```
+
+### Running Locally
+
+To run the project locally, execute the following command:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To build the project for production, run:
 
-## Learn More
+```bash
+npm run build
+# or
+yarn build
+```
 
-To learn more about Next.js, take a look at the following resources:
+This will create an optimized production build in the .next folder.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Running Production Build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To start the production server after building, run:
 
-## Deploy on Vercel
+```bash
+npm run start
+# or
+yarn start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Folder Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+socotra-test-assessment/
+│
+├── public/             # Static files like images, fonts, etc.
+├── src/                # Source files
+│   ├── apps/           # Next.js pages (React components)
+│   ├── components/     # Reusable UI, icon components
+│   ├── providers/      # Providers
+│   ├── styles/         # Tailwind CSS and other stylesheets
+│   └── types/          # Types
+├── .eslintrc.js        # ESLint configuration
+├── .prettierrc         # Prettier configuration
+├── next.config.js      # Next.js configuration
+├── tailwind.config.js  # Tailwind CSS configuration
+├── tsconfig.json       # TypeScript configuration
+├── package.json        # Project metadata and dependencies
+└── README.md           # Project documentation (you're reading it now!)
+```
