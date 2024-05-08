@@ -27,8 +27,8 @@ This project were built for skill testing purpose
 
 Make sure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (version 14 or higher)
-- [npm](https://www.npmjs.com/) (version 6 or higher) or [yarn](https://yarnpkg.com/)
+- [Node.js](https://nodejs.org/) (version 20.10.0 or higher)
+- [npm](https://www.npmjs.com/) (version 10.2.3 or higher) or [yarn](https://yarnpkg.com/)
 
 ### Installation
 
